@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login Page View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EWB" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginPageViewController" customModule="EWB" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -48,7 +48,7 @@
                                     <segue destination="fTq-8u-jbV" kind="modal" id="UVB-E3-cSe"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ewb_logo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UzN-FK-pU6">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainPageImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UzN-FK-pU6">
                                 <rect key="frame" x="40" y="95" width="240" height="211"/>
                             </imageView>
                         </subviews>
@@ -70,15 +70,16 @@
                             <constraint firstItem="PS6-8s-bZf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nyC-Hf-3nX"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="1k6-bp-7sn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-193" y="352"/>
+            <point key="canvasLocation" x="871" y="352"/>
         </scene>
-        <!--View Controller-->
+        <!--New Account View Controller-->
         <scene sceneID="d0s-f7-Pr3">
             <objects>
-                <viewController id="fTq-8u-jbV" sceneMemberID="viewController">
+                <viewController id="fTq-8u-jbV" customClass="NewAccountViewController" customModule="EWB" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ToE-s8-n2z"/>
                         <viewControllerLayoutGuide type="bottom" id="6ts-8M-aC3"/>
@@ -117,6 +118,9 @@
                                 <state key="normal" title="SUBMIT">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitAccountInformation" destination="fTq-8u-jbV" eventType="touchUpInside" id="5p9-iE-6aZ"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password Again" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="996-Xj-OMj">
                                 <rect key="frame" x="16" y="304" width="288" height="30"/>
@@ -125,7 +129,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="4HE-TD-AlT" secondAttribute="trailing" id="8Rw-wC-b98"/>
                             <constraint firstAttribute="trailingMargin" secondItem="996-Xj-OMj" secondAttribute="trailing" id="9tD-0h-6Sw"/>
@@ -147,51 +151,20 @@
                             <constraint firstAttribute="leadingMargin" secondItem="JCB-Tu-f0r" secondAttribute="leading" id="xyX-Q8-or4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="email" destination="4On-vD-W6Q" id="9d5-V5-f7d"/>
+                        <outlet property="firstName" destination="F6e-6L-I49" id="TZm-mr-6JX"/>
+                        <outlet property="lastName" destination="4HE-TD-AlT" id="MhW-0f-dqy"/>
+                        <outlet property="password" destination="JCB-Tu-f0r" id="mOH-i8-6qd"/>
+                        <outlet property="passwordAgain" destination="996-Xj-OMj" id="rEY-1n-hHo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AbW-fG-qvk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="215" y="178"/>
-        </scene>
-        <!--Item-->
-        <scene sceneID="8DS-m0-TV6">
-            <objects>
-                <viewController id="c5h-mC-fUT" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="qHl-Ki-cZI"/>
-                        <viewControllerLayoutGuide type="bottom" id="fRB-RZ-VgH"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="q64-eJ-4KN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="bZM-cc-0Jy"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Eb1-Kr-9ON" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="15" y="1978"/>
-        </scene>
-        <!--Item 2-->
-        <scene sceneID="sEB-r8-8Zw">
-            <objects>
-                <viewController id="vaa-zu-0ER" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="dqm-0I-gMA"/>
-                        <viewControllerLayoutGuide type="bottom" id="s4M-bh-DdK"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TCF-hc-Z2O">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="U0M-yY-LFK"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WJK-2i-30d" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="471" y="1471"/>
+            <point key="canvasLocation" x="1279" y="178"/>
         </scene>
     </scenes>
     <resources>
-        <image name="ewb_logo.jpg" width="750" height="693"/>
+        <image name="MainPageImage.jpg" width="750" height="693"/>
     </resources>
 </document>

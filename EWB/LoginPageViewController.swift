@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginPageViewController.swift
 //  EWB
 //
 //  Created by Adam Elass on 11/10/15.
@@ -8,8 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginPageViewController: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
