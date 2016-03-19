@@ -22,6 +22,14 @@ class LoginPageViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func enterApp(sender: AnyObject) {
+        self.performSegueWithIdentifier("gotoreveal", sender: self)
+    }
+    
+    
+//    override func performSegueWithIdentifier(identifier: String, sender: AnyObject?) {
+//        
+//    }
 
 }
 

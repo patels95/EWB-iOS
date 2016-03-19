@@ -19,9 +19,15 @@
 		B20878E71C584C87006DC496 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20878DD1C584C87006DC496 /* Security.framework */; };
 		B20878E81C584C87006DC496 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20878DE1C584C87006DC496 /* StoreKit.framework */; };
 		B20878E91C584C87006DC496 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20878DF1C584C87006DC496 /* SystemConfiguration.framework */; };
+		B232456A1C98D92F00511E6A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23245691C98D92F00511E6A /* SWRevealViewController.m */; };
+		B232456C1C98DF5900511E6A /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B232456B1C98DF5900511E6A /* TwitterViewController.swift */; };
 		B241BC0E1C7D328A000D18E4 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B241BC0D1C7D328A000D18E4 /* NewAccountViewController.swift */; };
 		B241BC131C7D3889000D18E4 /* LaunchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B241BC111C7D3889000D18E4 /* LaunchImage.jpg */; };
 		B241BC141C7D3889000D18E4 /* MainPageImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B241BC121C7D3889000D18E4 /* MainPageImage.jpg */; };
+		B2AD2D8C1C9DA41600795BD1 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AD2D8B1C9DA41600795BD1 /* CalendarViewController.swift */; };
+		B2AD2D8E1C9DA4AE00795BD1 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AD2D8D1C9DA4AE00795BD1 /* ProjectsViewController.swift */; };
+		B2AD2D901C9DAF2000795BD1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AD2D8F1C9DAF2000795BD1 /* MenuViewController.swift */; };
+		B2AD2D961C9DCAB100795BD1 /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = B2AD2D951C9DCAB100795BD1 /* hamburger.png */; };
 		B2B5B2CD1BF2CD1F00B7D1F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B5B2CC1BF2CD1F00B7D1F5 /* AppDelegate.swift */; };
 		B2B5B2CF1BF2CD1F00B7D1F5 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B5B2CE1BF2CD1F00B7D1F5 /* LoginPageViewController.swift */; };
 		B2B5B2D21BF2CD1F00B7D1F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B5B2D01BF2CD1F00B7D1F5 /* Main.storyboard */; };
@@ -61,9 +67,17 @@
 		B20878DD1C584C87006DC496 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B20878DE1C584C87006DC496 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		B20878DF1C584C87006DC496 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B23245671C98D92E00511E6A /* EWB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EWB-Bridging-Header.h"; sourceTree = "<group>"; };
+		B23245681C98D92F00511E6A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		B23245691C98D92F00511E6A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		B232456B1C98DF5900511E6A /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
 		B241BC0D1C7D328A000D18E4 /* NewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
 		B241BC111C7D3889000D18E4 /* LaunchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaunchImage.jpg; sourceTree = "<group>"; };
 		B241BC121C7D3889000D18E4 /* MainPageImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MainPageImage.jpg; sourceTree = "<group>"; };
+		B2AD2D8B1C9DA41600795BD1 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		B2AD2D8D1C9DA4AE00795BD1 /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		B2AD2D8F1C9DAF2000795BD1 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B2AD2D951C9DCAB100795BD1 /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburger.png; sourceTree = "<group>"; };
 		B2B5B2C91BF2CD1F00B7D1F5 /* EWB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EWB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B5B2CC1BF2CD1F00B7D1F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2B5B2CE1BF2CD1F00B7D1F5 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +130,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B23245661C98D8FB00511E6A /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B23245681C98D92F00511E6A /* SWRevealViewController.h */,
+				B23245691C98D92F00511E6A /* SWRevealViewController.m */,
+				B23245671C98D92E00511E6A /* EWB-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		B23BA0D51C9DCD6D00EED61F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B241BC121C7D3889000D18E4 /* MainPageImage.jpg */,
+				B241BC111C7D3889000D18E4 /* LaunchImage.jpg */,
+				B2AD2D951C9DCAB100795BD1 /* hamburger.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		B2B5B2C01BF2CD1E00B7D1F5 = {
 			isa = PBXGroup;
 			children = (
@@ -151,15 +185,19 @@
 		B2B5B2CB1BF2CD1F00B7D1F5 /* EWB */ = {
 			isa = PBXGroup;
 			children = (
-				B241BC111C7D3889000D18E4 /* LaunchImage.jpg */,
-				B241BC121C7D3889000D18E4 /* MainPageImage.jpg */,
+				B23245661C98D8FB00511E6A /* SWRevealViewController */,
 				B2B5B2CC1BF2CD1F00B7D1F5 /* AppDelegate.swift */,
-				B2B5B2CE1BF2CD1F00B7D1F5 /* LoginPageViewController.swift */,
 				B2B5B2D01BF2CD1F00B7D1F5 /* Main.storyboard */,
+				B2B5B2CE1BF2CD1F00B7D1F5 /* LoginPageViewController.swift */,
 				B241BC0D1C7D328A000D18E4 /* NewAccountViewController.swift */,
+				B2AD2D8F1C9DAF2000795BD1 /* MenuViewController.swift */,
+				B232456B1C98DF5900511E6A /* TwitterViewController.swift */,
+				B2AD2D8B1C9DA41600795BD1 /* CalendarViewController.swift */,
+				B2AD2D8D1C9DA4AE00795BD1 /* ProjectsViewController.swift */,
 				B2B5B2D31BF2CD1F00B7D1F5 /* Assets.xcassets */,
 				B2B5B2D51BF2CD1F00B7D1F5 /* LaunchScreen.storyboard */,
 				B2B5B2D81BF2CD1F00B7D1F5 /* Info.plist */,
+				B23BA0D51C9DCD6D00EED61F /* Images */,
 			);
 			path = EWB;
 			sourceTree = "<group>";
@@ -287,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B241BC131C7D3889000D18E4 /* LaunchImage.jpg in Resources */,
+				B2AD2D961C9DCAB100795BD1 /* hamburger.png in Resources */,
 				B2B5B2D71BF2CD1F00B7D1F5 /* LaunchScreen.storyboard in Resources */,
 				B241BC141C7D3889000D18E4 /* MainPageImage.jpg in Resources */,
 				B2B5B2D41BF2CD1F00B7D1F5 /* Assets.xcassets in Resources */,
@@ -315,9 +354,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2AD2D8C1C9DA41600795BD1 /* CalendarViewController.swift in Sources */,
 				B2B5B2CF1BF2CD1F00B7D1F5 /* LoginPageViewController.swift in Sources */,
 				B2B5B2CD1BF2CD1F00B7D1F5 /* AppDelegate.swift in Sources */,
+				B232456C1C98DF5900511E6A /* TwitterViewController.swift in Sources */,
 				B241BC0E1C7D328A000D18E4 /* NewAccountViewController.swift in Sources */,
+				B232456A1C98D92F00511E6A /* SWRevealViewController.m in Sources */,
+				B2AD2D8E1C9DA4AE00795BD1 /* ProjectsViewController.swift in Sources */,
+				B2AD2D901C9DAF2000795BD1 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +510,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adamelass.EWB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EWB/EWB-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -483,6 +528,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adamelass.EWB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EWB/EWB-Bridging-Header.h";
 			};
 			name = Release;
 		};

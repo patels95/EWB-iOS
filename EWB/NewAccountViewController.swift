@@ -37,5 +37,8 @@ class NewAccountViewController: UIViewController {
         user["passwordAgain"] = passwordAgain.text
     }
     
+    @IBAction func cancelNewAccountViewController() {
+        dismissViewControllerAnimated(true, completion: nil);
+    }
 
 }
