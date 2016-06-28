@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B2B5B2C81BF2CD1E00B7D1F5"
-               BuildableName = "EWB.app"
+               BuildableName = "GAI-EWB.app"
                BlueprintName = "EWB"
                ReferencedContainer = "container:EWB.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B2B5B2DC1BF2CD1F00B7D1F5"
-               BuildableName = "EWBTests.xctest"
+               BuildableName = "EWB.xctest"
                BlueprintName = "EWBTests"
                ReferencedContainer = "container:EWB.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B2B5B2E71BF2CD1F00B7D1F5"
-               BuildableName = "EWBUITests.xctest"
+               BuildableName = "EWB.xctest"
                BlueprintName = "EWBUITests"
                ReferencedContainer = "container:EWB.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B2B5B2C81BF2CD1E00B7D1F5"
-            BuildableName = "EWB.app"
+            BuildableName = "GAI-EWB.app"
             BlueprintName = "EWB"
             ReferencedContainer = "container:EWB.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B2B5B2C81BF2CD1E00B7D1F5"
-            BuildableName = "EWB.app"
+            BuildableName = "GAI-EWB.app"
             BlueprintName = "EWB"
             ReferencedContainer = "container:EWB.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B2B5B2C81BF2CD1E00B7D1F5"
-            BuildableName = "EWB.app"
+            BuildableName = "GAI-EWB.app"
             BlueprintName = "EWB"
             ReferencedContainer = "container:EWB.xcodeproj">
          </BuildableReference>

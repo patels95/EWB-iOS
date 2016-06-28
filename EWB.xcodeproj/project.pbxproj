@@ -82,10 +82,10 @@
 		B2B5B2D31BF2CD1F00B7D1F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2B5B2D61BF2CD1F00B7D1F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2B5B2D81BF2CD1F00B7D1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2B5B2DD1BF2CD1F00B7D1F5 /* EWBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B5B2DD1BF2CD1F00B7D1F5 /* EWB.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWB.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B5B2E11BF2CD1F00B7D1F5 /* EWBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWBTests.swift; sourceTree = "<group>"; };
 		B2B5B2E31BF2CD1F00B7D1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2B5B2E81BF2CD1F00B7D1F5 /* EWBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B5B2E81BF2CD1F00B7D1F5 /* EWB.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWB.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B5B2EC1BF2CD1F00B7D1F5 /* EWBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EWBUITests.swift; sourceTree = "<group>"; };
 		B2B5B2EE1BF2CD1F00B7D1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2BB45791C9DD8F000FBC673 /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburger.png; sourceTree = "<group>"; };
@@ -166,8 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				B2B5B2C91BF2CD1F00B7D1F5 /* EWB.app */,
-				B2B5B2DD1BF2CD1F00B7D1F5 /* EWBTests.xctest */,
-				B2B5B2E81BF2CD1F00B7D1F5 /* EWBUITests.xctest */,
+				B2B5B2DD1BF2CD1F00B7D1F5 /* EWB.xctest */,
+				B2B5B2E81BF2CD1F00B7D1F5 /* EWB.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,7 +247,7 @@
 			);
 			name = EWBTests;
 			productName = EWBTests;
-			productReference = B2B5B2DD1BF2CD1F00B7D1F5 /* EWBTests.xctest */;
+			productReference = B2B5B2DD1BF2CD1F00B7D1F5 /* EWB.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B2B5B2E71BF2CD1F00B7D1F5 /* EWBUITests */ = {
@@ -265,7 +265,7 @@
 			);
 			name = EWBUITests;
 			productName = EWBUITests;
-			productReference = B2B5B2E81BF2CD1F00B7D1F5 /* EWBUITests.xctest */;
+			productReference = B2B5B2E81BF2CD1F00B7D1F5 /* EWB.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -500,8 +500,8 @@
 				);
 				INFOPLIST_FILE = EWB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = adamelass.EWB;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "GAI-EWB";
+				PRODUCT_NAME = EWB;
 				SWIFT_OBJC_BRIDGING_HEADER = "EWB/EWB-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -518,8 +518,8 @@
 				);
 				INFOPLIST_FILE = EWB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = adamelass.EWB;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "GAI-EWB";
+				PRODUCT_NAME = EWB;
 				SWIFT_OBJC_BRIDGING_HEADER = "EWB/EWB-Bridging-Header.h";
 			};
 			name = Release;
@@ -531,7 +531,7 @@
 				INFOPLIST_FILE = EWBTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adamelass.EWBTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EWB;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EWB.app/EWB";
 			};
 			name = Debug;
@@ -543,7 +543,7 @@
 				INFOPLIST_FILE = EWBTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adamelass.EWBTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EWB;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EWB.app/EWB";
 			};
 			name = Release;
@@ -554,7 +554,7 @@
 				INFOPLIST_FILE = EWBUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adamelass.EWBUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EWB;
 				TEST_TARGET_NAME = EWB;
 				USES_XCTRUNNER = YES;
 			};
@@ -566,7 +566,7 @@
 				INFOPLIST_FILE = EWBUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adamelass.EWBUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EWB;
 				TEST_TARGET_NAME = EWB;
 				USES_XCTRUNNER = YES;
 			};

@@ -2,9 +2,6 @@
 //  EWBUITests.swift
 //  EWBUITests
 //
-//  Created by Adam Elass on 11/10/15.
-//  Copyright © 2015 Adam Elass. All rights reserved.
-//
 
 import XCTest
 

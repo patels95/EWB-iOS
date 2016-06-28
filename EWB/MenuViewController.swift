@@ -2,9 +2,6 @@
 //  MenuViewController.swift
 //  EWB
 //
-//  Created by Adam Elass on 3/19/16.
-//  Copyright © 2016 Adam Elass. All rights reserved.
-//
 
 import UIKit
 

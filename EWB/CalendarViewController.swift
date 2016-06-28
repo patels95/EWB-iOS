@@ -2,9 +2,6 @@
 //  CalendarViewController.swift
 //  EWB
 //
-//  Created by Adam Elass on 3/19/16.
-//  Copyright © 2016 Adam Elass. All rights reserved.
-//
 //  Code taken from tutorial at http://www.appcoda.com/sidebar-menu-swift/
 
 import UIKit
@@ -19,7 +16,8 @@ class CalendarViewController: UITableViewController {
         // Do any additional setup after loading the view.
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
-            menuButton.action = "revealToggle:"
+            // menuButton.action = "revealToggle:" // this gives a warning; line below this solves the issue
+            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
     }
